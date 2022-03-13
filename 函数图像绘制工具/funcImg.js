@@ -29,6 +29,21 @@ function FunWork(f, x) {
             return Math.tan(x);
             break;
         }
+        case "arcsin":
+        {
+            return Math.asin(x);
+            break;
+        }
+        case "arccos":
+        {
+            return Math.acos(x);
+            break;
+        }
+        case "arctan":
+        {
+            return Math.atan(x);
+            break;
+        }
         case "abs":
         {
             return Math.abs(x);
