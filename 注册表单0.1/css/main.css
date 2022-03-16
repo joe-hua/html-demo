@@ -1,0 +1,11 @@
+
+.input_class {  /*设置class属性名称为input_class的标签内容*/
+    width:250px;
+    height:16px;
+}
+
+.aaa{          /*设置class属性名称为aaa的标签内容*/
+    font-size:16px;
+    font-weight: bold;
+}
+

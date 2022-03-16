@@ -219,11 +219,10 @@ function getTable() {
     for(; i * tableY < yRightValue; i++) {
         // 横线
         if(i == 0) {
-            // x轴
-            CONTEXT_2D.fillStyle = "black";
+            // x轴            CONTEXT_2D.fillStyle = "black";
         } else {
             // 普通横线
-            CONTEXT_2D.fillStyle = "#CDB7B5";
+            CONTEXT_2D.fillStyle = "#cdb7b5";
         }
         tmp = (i * tableY - yLeftValue) / (yRightValue - yLeftValue) * FUN_IMG_HEIGHT;
         CONTEXT_2D.fillRect(0, FUN_IMG_HEIGHT - 1 - tmp, FUN_IMG_WIDTH, 1);
