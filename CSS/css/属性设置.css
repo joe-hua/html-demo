@@ -1,0 +1,8 @@
+/*link对象在未被访问前的属性设置*/
+a:link{color:#339999;text-decration:none;}
+/*visited对象在链接地址被访问当时的属性设置*/
+a:visited{color:#33cc00;text-decration:none}
+/*hover对象在鼠标悬停在上面的属性设置*/
+a:hover{color:red;text-decration:underline;}
+/*active 对象在被用户激活（鼠标点击之后）的属性设置*/
+a:active{color:blue;text-decration:underline;}
