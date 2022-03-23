@@ -1,0 +1,30 @@
+.box-translate{
+    width: 280px;
+    height: 20px;
+    position: relative;
+    left: 25px;
+    top: 0;
+    margin: 0;
+    float: right;
+}
+.box-translate a{
+    display:block;
+    color: #9e9f9f;
+    width:40px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration:none;
+}
+.box-translate>ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.box-translate li{
+    float:left;
+}
+.box-translate a:hover,a:active{
+    color: #908d8d;
+}

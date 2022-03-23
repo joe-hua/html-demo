@@ -1,0 +1,26 @@
+.box-toggle>ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box-toggle li{
+    width: 25px;
+    height: 15px;
+    float: left;
+    margin: 0;
+    text-align: center;
+    font-size: 5px;
+    color: #f6f4f4;
+    right: 0;
+    border-right:1px solid #f6f4f4;
+    border-left: 1px solid #f6f4f4;
+}
+.box-toggle{
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+}
+.box-toggle li:hover{
+    background-color: rgb(202, 41, 53);
+    color: #ffffff;
+}

@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>CSS的定位和盒子模型</title>
+    <meta charset="UTF-8"/>
+    <!--声明css代码域-->
+    <style type="text/css">
+        #showdiv{
+            border: solid 1px;
+            width: 300px;
+            height: 300px;
+            background-color: bisque;
+            /*定位学习*/
+            /*绝对定位*/
+            position: absolute;
+            left:100px;
+            top:100px;
+        }
+        #div01{
+            border: solid 1px;
+            width: 100px;
+            height: 100px;
+            background-color:blue;
+            /*定位学习*/
+            /*相对定位*/
+            position: relative;
+            left: 100px;
+            top: 50px;
+            margin: 10px;
+        }
+        #div02{
+            border: solid 1px;
+            width: 100px;
+            height: 100px;
+            background-color:blue;
+            /*定位学习*/
+            /*相对定位*/
+            position: relative;
+            left: 100px;
+            top: 50px;
+            /*盒子模型*/
+            /*内边距*/
+            /*padding: 10px;*/
+            /*外边距*/
+            margin: 10px;
+        }
+    </style>
+</head>
+<!--
+    css学习:
+        css的代码域声明：在HTML文档中声明css代码域书写css代码
+        css的选择器和样式:使用选择器选择要添加样式的HTML标签，然后使用样式进行添加即可。
+        css的定位和盒子模型：
+            定位：移动HTML元素
+                绝对定位：
+                    作用：移动HTML元素
+                    使用：在样式单中使用样式属性position:absolute,然后使用left和top样式属性进行移动
+                    参照物：就近的使用了定位的父级元素，如果所有的父级元素都没有使用定位，则相对body
+                相对定位：
+                    作用：移动HTML元素
+                    使用：在样式单中使用样式属性position:relative,然后使用left和top样式属性进行移动
+                    参照物：参照的是自己原来的位置。
+            盒子模型：HTML元素与元素之间的间隔设置
+                内容:元素的宽和高的设置
+                内边距:内容距离边框的距离 padding
+                边框：border
+                外边距：元素本身或者边框距离外边框的距离，外边框是不显示的。 margin
+-->
+<body>
+<div id="showdiv">
+    <div id="div01">
+
+    </div>
+    <div id="div02">
+        我是div02
+    </div>
+</div>
+</body>
+</html>

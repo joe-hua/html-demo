@@ -4,11 +4,101 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/box-nav.css">
+    <link rel="stylesheet" href="css/box-img.css">
+    <link rel="stylesheet" href="css/box-toggle.css">
+    <link rel="stylesheet" href="css/box-translate.css">
+    <link rel="stylesheet" href="css/box-search.css">
 
 </head>
 <body>
+<div class="box-all">
+    <div class="box-first">
+    <span><img src="picture/logo.png" height="42" width="199"/></span>
+        <div class="box-translate">
+            <ul>
+                <li>
+                    <a href="#">中文 |</a>
+                </li>
+                <li>
+                    <a href="#">ENGLISH</a>
+                </li>
+            </ul>
+        </div>
+        <div class="box-search" >
+            <span>关键词：</span>
+            <input name="关键词" type="text" size="30" value="" style="vertical-align:middle" />
+            <img src="picture/serach.png" height="20" width="55"style="cursor:pointer; vertical-align:middle"/>
+        </div>
+    </div>
+    <div class="box-nav">
+    <ul>
+        <li>
+            <a href="#">首页</a>
+        </li>
+        <li>
+            <a href="#">关于我们</a>
+        </li>
+        <li>
+            <a href="#">产品展示</a>
+        </li>
+        <li>
+            <a href="#">新闻资讯</a>
+        </li>
+        <li>
+            <a href="#">人才招聘</a>
+        </li>
+        <li>
+            <a href="#">联系我们</a>
+        </li>
+    </ul>
+    </div>
+
+    <div class="box-loop-img">
+        <div class="box-img"><img src="picture/suzhou_sf.png" height="500" width="1212"/></div>
+        <div class="box-img"><img src="picture/suzhou_sf2.png" height="500" width="1212"/></div>
+        <div class="box-img"><img src="picture/suzhou_sf.png" height="500" width="1212"/></div>
+        <div class="box-img"><img src="picture/suzhou_sf2.png" height="500" width="1212"/></div>
+        <div class="box-left">&lt;</div>
+        <div class="box-right">&gt;</div>
+        <div class="box-toggle">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="news">
+        <img src="picture/xwzx.jpg" height="28" width="20%"/>
+        <a href="news.html"><img src="picture/more.png" height="13" width="5%"/></a>
+        <img src="picture/zxcp.jpg" height="25" width="39%"/>
+        <a href="news.html"><img src="picture/more.png" height="13" width="5%"/></a>
+    </div>
+    <div class="product">
+        <div class="box-news">
+            <iframe src="news.html" frameborder="0"; style="width:100%; height:380px"></iframe>
+        </div>
+
+        <div class="box-product">
+            <iframe src="product.html" frameborder="0"; style="width:100%; height:380px"></iframe>
+        </div>
+
+        <div class="box-connect">
+            <iframe src="connect.html" frameborder="0"; style="width:100%; height:380px"></iframe>
+        </div>
+    </div>
 
 
+    <div class="copy">
+    <footer>
+        <small>版权所有&copy; 2013 &nbsp Suzhou Best Clean Electical Co.Ltd 苏ICP备663886888技木支持：中国万网
+            <img src="picture/logo1.png" height="30" width="30"style="cursor:pointer; vertical-align:middle"/></small>
+    </footer>
+    </div>
+</div>
+<script src="js/jquery-3.6.0.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

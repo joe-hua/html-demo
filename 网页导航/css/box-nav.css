@@ -1,0 +1,34 @@
+.box-nav{
+    margin: 10px;
+    border: 2px   #eae2e2;
+    width:1212px;
+    position: relative;
+    left: 0;
+    top: 0;
+
+}
+.box-nav>ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.box-nav li{
+    float:left;
+}
+
+.box-nav a{
+    display:block;
+    background-color: #e8e8e8;
+    color: #9e9f9f;
+    width:200px;
+    text-align:center;
+    border: 1px  solid #d0cbcb;
+    padding:10px 0px;
+    text-decoration:none;
+}
+
+.box-nav a:hover,a:active{
+    color: #c62c2c;
+}

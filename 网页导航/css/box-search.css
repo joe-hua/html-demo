@@ -1,0 +1,12 @@
+.box-search{
+    font-size: 13px;
+    color: #9e9f9f;
+    width: 400px;
+    height: 20px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+    margin: 0;
+    float: right;
+}
+.box-search *{vertical-align:middle;}
