@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>子选择器</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style type="text/css">
+        h2{
+            font-size: 20px;
+            text-align: center;
+        }
+        .box-img{
+            list-style-type:none;
+            margin:40px;
+            padding:0;
+            overflow:hidden;
+            cursor: default;
+        }
+        .box-img a .preview{
+            height:300px;
+            width:400px;
+            display: none;
+        }
+        .box-img a:hover .preview{
+            display: block;
+            position: absolute;
+            top: -35px;
+            left: -45px;
+            z-index: 1;
+        }
+        .preview{
+            position: absolute;
+            top: -30px;
+        }
+        .box-img a{
+            display:block;
+        }
+        .box-img li{
+            float: left;
+            margin: 3px;
+            padding: 5px;
+            position: relative;
+            display: inline;
+            border: #cec3ba  solid 1px;
+        }
+    </style>
+</head>
+<body>
+<h2>鼠标经过图片显示大图</h2>
+<hr>
+<ul class="box-img">
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo01.jpg"/>
+            <img src="img/photo01.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo02.jpg"/>
+            <img src="img/photo02.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo03.jpg"/>
+            <img src="img/photo03.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo04.jpg"/>
+            <img src="img/photo04.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo05.jpg"/>
+            <img src="img/photo05.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo06.jpg"/>
+            <img src="img/photo06.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo07.jpg"/>
+            <img src="img/photo07.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo08.jpg"/>
+            <img src="img/photo08.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo09.jpg"/>
+            <img src="img/photo09.jpg" height="150" width="200"/>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img class="preview" src="img/photo10.jpg"/>
+            <img src="img/photo10.jpg" height="150" width="200"/>
+        </a>
+    </li>
+</ul>
+
+</body>
+</html>
